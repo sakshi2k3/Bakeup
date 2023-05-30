@@ -1,0 +1,392 @@
+ .logo{
+    width: 152px;
+    height: 74px;
+}
+.navbar{
+    background: white;
+}
+
+ 
+  .navbar-nav li
+    {
+     padding: 0 10px;
+     }
+   .navbar-nav li a
+  {
+    color: #c38441;
+    font-weight: 400;
+    font-size: 20px;
+    /* font-family: cursive; */
+    font-family: Arial, Helvetica, sans-serif;
+   }
+nav i{
+  color:#c38441;
+    font-size: 30px;
+   }
+ .navbar-nav li a:hover{
+    color: red;
+  
+    
+  }
+  .navi{
+    color: #caa26f;
+    font-size: 20px;
+    padding: 0 5px;
+    
+  }
+
+ 
+
+  .first{
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://img.freepik.com/free-photo/various-cakes-supermarket-shelves-sale_627829-7332.jpg?size=626&ext=jpg&ga=GA1.2.670415651.1680942395&semt=robertav1_2_sidr);
+  }
+  .second{
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://img.freepik.com/free-photo/closeup-freshly-baked-various-types-sweet-tasty-christmas-cookies-box_181624-58113.jpg?size=626&ext=jpg&ga=GA1.1.670415651.1680942395&semt=ais);
+  }
+  .third{
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://img.freepik.com/free-photo/assortment-pieces-cake_114579-28235.jpg?size=626&ext=jpg&ga=GA1.2.670415651.1680942395&semt=sph);
+  }
+  .fourth{
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://img.freepik.com/free-photo/glazed-chocolate-pink-donuts-marble-surface_114579-18300.jpg?size=626&ext=jpg&ga=GA1.1.670415651.1680942395&semt=sph);
+  }
+  #loading{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #fff url('https://www.animatedimages.org/data/media/298/animated-eat-and-drink-image-0108.gif')
+    no-repeat center;
+    z-index: 10000;;
+   
+  }
+  @media(max-width: 768px){
+    .mobslide{
+      height: 500px;
+    }
+    .caption{
+      /* margin-bottom: 80px; */
+      padding-bottom: 50px;
+    }
+    .happy{
+      padding-bottom: 80px;
+    }
+  }
+
+.head{
+color: #837373;
+border-bottom: 2px solid;
+}
+@media(max-width:768px){
+  .mobslide{
+    margin-top: 70px;
+  }
+}
+.caption{
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 250px;
+  font-size: 55px;
+  transition-duration: 1s;
+  transition-timing-function: linear; 
+  transition-property: font-size;
+}
+
+.caption:hover{
+  font-size: 60px;
+}
+@media(max-width:768px){
+  .caption{
+    font-size: 45px;
+  }
+}
+.CATEGORIES{
+  width: 200px;
+  /* transition-duration: 2s;
+  transition-timing-function: linear; 
+   transition-property: width; */
+}
+/* .CATEGORIES:hover{
+width: 300px;
+
+} */
+.cate{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.para{
+  font-size: 17px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  /* font-family: cursive; */
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  line-height: 35px;
+  color: grey;
+}
+
+.content{
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://img.freepik.com/free-photo/high-angle-sweet-chocolate-cake-with-copy-space_23-2148834062.jpg?size=626&ext=jpg&ga=GA1.1.670415651.1680942395&semt=ais);
+
+}
+.off{
+  font-family: cursive;
+  font-size: 50px;
+  margin: 200px 0px;
+}
+.shadowimg{
+  box-shadow: 6px 3px 4px 1px rgb(138, 138, 141);
+}
+.icon{
+  font-size: 40px;
+  color: white ;
+  text-align: center;
+  margin-top: 20px;
+  
+}
+.customer{
+  text-align: justify;
+  font-family: cursive;
+}
+
+.heading{
+  
+ color: black;
+ font-size: 2.5rem;
+ font-weight: 400;
+/* text-decoration: 2px underline; */
+}
+.foot{
+  height: 450px;
+  background-color: white;
+  
+}
+.footimg{
+  width: 250px;
+  height: 193px;
+
+}
+.h5{
+  color: #caa26f;
+}
+.curhead{
+  /* font-family: Bradely Hand,cursive; */
+   font-family: 'Dancing Script',cursive;
+  color: #c38441;
+  font-weight: 700 !important;
+  font-size: 3rem;
+  box-sizing: border-box;
+}
+
+.foothead{
+  color: #d41821;
+  font-weight: 600;
+    /* margin: 136px 22px; */
+    font-size: 34px;
+    cursor: pointer;
+}
+.footi{
+  color: #d41821;
+  font-size: 20px;
+ /* text-align: center; */
+  margin: 0 5px;
+}
+.footopt{
+  color:#c08340;
+  font-size: 20px;
+  cursor: pointer;
+  /* text-align: center; */
+}
+.footopt:hover{
+  color: #d41821;
+}
+.footicon2{
+  color: #c08340;
+  font-size: 40px;
+  cursor: pointer;
+ 
+}
+.footicon2:hover{
+  color: #d41821;
+  font-size: 45px;
+  cursor: pointer;
+}
+.news{
+  background-image: url(https://img.freepik.com/free-vector/pastry-seamless-pattern_1284-14778.jpg?size=626&ext=jpg&ga=GA1.2.670415651.1680942395&semt=ais);
+}
+.footend{
+  height: 80px;
+  border-top: 2px solid #c08340;
+}
+/* about css */
+.banner1{
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://img.freepik.com/premium-photo/homemade-dumplings-with-flour-kitchenware-rustic-wooden-background-traditional-russian-pelmeni-semi-finished-products-free-copy-space_100545-68.jpg?size=626&ext=jpg&ga=GA1.1.670415651.1680942395&semt=aiss);
+  }
+  @media(max-width: 768px){
+    .banner1{
+      height: 500px;
+    }
+  }
+  .about{
+    margin-top: 200px;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size: 125px;
+  }
+.cdimg{
+  height: 300px;
+  width: 250px;
+ 
+
+}
+.card-title{
+  font-family: 'Dancing Script',cursive;
+  font-size: 30px;
+}
+/* menu css start */
+.opt{
+  border: 2px solid;
+
+  border-radius: 512px;
+  height: 52px;
+  /* cursor: pointer; */
+  list-style: none;
+  background-color: black;
+  color: white;
+  /* transition-property: background-color, color;
+  transition-duration: 1s;
+  transition-timing-function: linear; */
+
+}
+.opt:hover{
+  background-color: white;
+  color: black;
+}
+.menuhead{
+  font-family:'Dancing Script',cursive ;
+  border-bottom: 2px solid;
+  font-size: 50px;
+}
+.menubody{
+  text-align: center;
+}
+.bodypara{
+  font-size: 21px;
+  font-family:'Dancing Script',cursive ;
+  text-align: center;
+}
+.banner3{
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://img.freepik.com/free-photo/easy-wireless-yechnology-payment_23-2149105165.jpg?size=626&ext=jpg&ga=GA1.1.670415651.1680942395&semt=robertav1_2_sidr);
+  }
+  .order{
+    margin-top: 249px;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size: 110px;
+  }
+  @media(max-width: 768px){
+    .banner3{
+      height: 500px;
+    }
+  }
+  @media(max-width: 768px){
+    .order{
+      margin-top: 180px;
+    }
+  }
+
+/* contact css */
+.banner2{
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://img.freepik.com/free-photo/woman-selecting-packed-food-food-counter_107420-63658.jpg?size=626&ext=jpg&ga=GA1.1.670415651.1680942395&semt=ais);
+  }
+@media(max-width:768px){
+  .about{
+    font-size: 85px;
+  }
+}
+@media(max-width: 912px){
+  .footimg{
+    width: 143px;
+    height: 219px;
+    /* padding-right: 90px; */
+  
+  }
+}
+.cc button{
+  background-color: #c08340;
+  color: white;
+}
+.cc button:hover{
+background-color: white;
+color: #c08340;
+border: 2px solid  #c08340;
+}
+@media(max-width: 768px){
+  .banner2{
+    height: 500px;
+  }
+}
+
+.counter-section h1 span{
+  font-family: 'Pacifico', cursive;
+  font-size: 80px;
+  font-weight: bold;
+}
+.counter-section p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    
+    color: #b05926;
+}
+
+@media(max-width:668px){
+  .curhead{
+    margin-top: 10px;
+  }
+}
+
+/* scroll to top button */
+#scrollToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #d41821;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%;
+  font-size: 20px;
+}
