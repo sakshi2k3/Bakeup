@@ -408,10 +408,14 @@
       </div> -->
       <script>
          AOS.init();
-
-          const note = confirm("Allow bakeup to send notifications ?")
+//alert box for notification
+       let notification = setTimeout(()=>{
+        const note = confirm("Allow bakeup to send notifications ?")
  if(note){
    alert("Thank You!")
+ 
+ }
+       }, 10000)
  
  }
 
